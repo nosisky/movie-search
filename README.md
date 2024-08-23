@@ -78,6 +78,12 @@ npm run start
 
 This will start the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+To run test:
+
+```
+npm run test
+```
+
 To create a production build:
 
 ```
