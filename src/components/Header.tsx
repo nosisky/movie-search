@@ -2,17 +2,9 @@ import React from "react";
 
 interface HeaderProps {
   title: string;
-  onSearch: (searchTerm: string) => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ title, onSearch }) => {
-  const [searchTerm, setSearchTerm] = React.useState("");
-
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault();
-    onSearch(searchTerm);
-  };
-
+const Header: React.FC<HeaderProps> = ({ title }) => {
   return (
     <header className="bg-gradient-to-r from-purple-700 to-purple-500 shadow-lg">
       <nav className="container mx-auto flex items-center justify-between p-4">

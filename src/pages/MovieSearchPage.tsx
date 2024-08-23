@@ -5,7 +5,7 @@ import Header from "../components/Header";
 const MovieSearchPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-100">
-      <Header title="Movie Explorer" onSearch={(setSearchTerm) => {}} />
+      <Header title="Movie Explorer" />
 
       <main className="py-8">
         <MovieSearch />
